@@ -8,6 +8,32 @@ body{
     height:100vh;
     margin: 0;
 }
+h2,label,p{
+    color:#fff;
+    margin: 8px 0;
+}
+input{
+    width:cal(100%-16px);
+    padding:8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border:1px solid white;
+    margin-top: 20px;
+}
+button{
+    background-color: rgba(161, 166, 189, 0.926);
+    color:rgb(130, 123, 179);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 15px;
+}
+button:hover{
+    background: #b8afaf;
+}
 #weather-container{
     background-color: rgba(255,255,255,0.3);
     max-width: 400px;
